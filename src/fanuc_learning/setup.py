@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['publisher_fanuc1 = fanuc_learning.publisher_fanuc:main'
         ],
     },
 )
